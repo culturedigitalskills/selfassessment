@@ -69,38 +69,38 @@ df <- data.frame(
 ui <- fluidPage(
 
 
-  tags$head(
-    # Note the wrapping of the string in HTML()
-    tags$style(HTML("
-      @import url('https://fonts.googleapis.com/css?family=Hanken%20Grotesk');
-      body {
-        font-family:'Hanken Grotesk';
-        font-style: normal;
-        font-weight: 400px;
-        font-size: 12px;
-      }
-      h2 {
-        font-family: 'Hanken Grotesk, serif;
-      }
-      .title{
-      aligh: auto;
-      }
-      .mydiv{
-        width: 100%;
-        aligh: auto;
-        text-align: left;
-      }
-      p {
-        font-family:'Hanken Grotesk';
-        font-style: normal;
-        font-weight: 400px;
-        font-size: 12px;
-      }
-      .shiny-input-container {
-        color: #474747;
-      }"
-      ))
-  ),
+  #' tags$head(
+  #'   # Note the wrapping of the string in HTML()
+  #'   tags$style(HTML("
+  #'     @import url('https://fonts.googleapis.com/css?family=Hanken%20Grotesk');
+  #'     body {
+  #'       font-family:'Hanken Grotesk';
+  #'       font-style: normal;
+  #'       font-weight: 400px;
+  #'       font-size: 12px;
+  #'     }
+  #'     h2 {
+  #'       font-family: 'Hanken Grotesk, serif;
+  #'     }
+  #'     .title{
+  #'     aligh: auto;
+  #'     }
+  #'     .mydiv{
+  #'       width: 100%;
+  #'       aligh: auto;
+  #'       text-align: left;
+  #'     }
+  #'     p {
+  #'       font-family:'Hanken Grotesk';
+  #'       font-style: normal;
+  #'       font-weight: 400px;
+  #'       font-size: 12px;
+  #'     }
+  #'     .shiny-input-container {
+  #'       color: #474747;
+  #'     }"
+  #'     ))
+  #' ),
 
 
 
